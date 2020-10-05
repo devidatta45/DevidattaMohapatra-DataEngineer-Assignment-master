@@ -1,0 +1,13 @@
+One important thing to note is that this method assumes that the
+strings are formatted however you want them to be formatted.
+For example, it assumes that each string has a newline character at the end of it.
+If you don’t have a newline character at the end of each string,
+you’ll end up with one long line of text in the output file.
+It’s also worth mentioning that this method can throw exceptions
+if the file-writing process fails for some reason, such as if you don’t have permission to write to the file.
+cats-par: Abstract type member Parallel instances
+cats-retry: composable retry logic for Cats and Cats Effect
+droste: recursion schemes for Cats
+dsl-domains-cats: The !-notation for creating Cats monadic expressions
+eff: functional effects and effect handlers (alternative to monad transformers)
+Freestyle: pure functional framework for Free and Tagless Final apps & libs
